@@ -21,3 +21,6 @@ db.username=<...>
 db.password=<...>
 db.database=<...>
 ```
+
+#### Resources
+- [spring mongo ref](https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo-template.save-update-remove)
