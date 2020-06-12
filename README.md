@@ -1,5 +1,6 @@
 ### Spring + MongoDB
-Sample code to get MongoDB set up on Spring Boot with basic user/pass authentication. MongoTemplate is set up too.
+Getting set up one MongoDB with MongoTemplate and Spring Data on Spring Boot.
+DB authentication is done with basic user/pass.
 
 Spring Boot 2.3.0  
 Spring 5.2.7  
@@ -11,8 +12,7 @@ Dependencies:
 
 #### Setup
 
-Add lines to `src\main\java\com\example\demo3\mongodb.properties`:
-
+Add the following lines to a file `src\main\java\com\example\demo3\mongodb.properties`:
 ```
 db.connection=<...>
 db.host=<...>
@@ -23,4 +23,4 @@ db.database=<...>
 ```
 
 #### Resources
-- [spring mongo ref](https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo-template.save-update-remove)
+- [Spring MongoDB reference](https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo-template.save-update-remove)
