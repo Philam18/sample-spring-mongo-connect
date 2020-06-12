@@ -1,4 +1,4 @@
-# sample-spring-mongo-connect
+### Spring + MongoDB
 Sample code to get MongoDB set up on Spring Boot with basic user/pass authentication. MongoTemplate is set up too.
 
 Spring Boot 2.3.0  
